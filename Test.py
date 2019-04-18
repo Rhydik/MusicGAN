@@ -83,7 +83,7 @@ for i in range(10001):
         plt.legend((xax,gax), ("Real Data","Generated Data"))
         plt.title('Samples at Iteration %d'%i)
         plt.tight_layout()
-        plt.savefig('../plots/iterations/iteration_%d.png'%i)
+        #plt.savefig('../plots/iterations/iteration_%d.png'%i)
         plt.close()
 
         plt.figure()
@@ -97,7 +97,7 @@ for i in range(10001):
                                "Generated Data Before G step","Generated Data After G step"))
         plt.title('Transformed Features at Iteration %d'%i)
         plt.tight_layout()
-        plt.savefig('../plots/features/feature_transform_%d.png'%i)
+        #plt.savefig('../plots/features/feature_transform_%d.png'%i)
         plt.close()
 
         plt.figure()
@@ -112,7 +112,7 @@ for i in range(10001):
 
         plt.title('Centroid of Transformed Features at Iteration %d'%i)
         plt.tight_layout()
-        plt.savefig('../plots/features/feature_transform_centroid_%d.png'%i)
+        #plt.savefig('../plots/features/feature_transform_centroid_%d.png'%i)
         plt.close()
 
 f.close()
